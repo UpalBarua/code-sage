@@ -1,0 +1,84 @@
+/* ==================== */
+/* COURSES STYLES       */
+/* ==================== */
+.courseContainer {
+  display: grid;
+  grid-template-columns: auto;
+  gap: var(--spacing-400);
+  margin: var(--spacing-500) 0;
+  position: relative;
+}
+
+.sidebar {
+  background-color: var(--clr-primary-400);
+  padding: var(--spacing-300) var(--spacing-600);
+  height: max-content;
+  position: fixed;
+  height: 100%;
+  width: 80%;
+  top: 0;
+  left: 0;
+  margin-top: var(--spacing-600);
+  transform: translateX(-100%);
+  transition: transform 300ms ease-in;
+  box-shadow: var(--box-shadow);
+}
+
+.sidebar[data-is-visible='true'] {
+  transform: translateX(0);
+}
+
+.sidebar .menuItem {
+  margin-block: var(--spacing-500);
+  transition: color 300ms ease-in;
+}
+
+.sidebar .menuItem:hover,
+.sidebar .menuItem:focus-visible {
+  outline: 0;
+  color: var(--clr-accent-400);
+}
+
+.cardsContainer {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: var(--spacing-400);
+}
+
+.heading {
+  font-size: var(--fs-800);
+  font-weight: var(--fw-bold);
+  text-align: center;
+  color: var(--clr-accent-400);
+  margin-top: var(--spacing-500);
+  font-family: var(--ff-secondary);
+}
+
+@media screen and (min-width: 36em) {
+  .cardsContainer {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media screen and (min-width: 48em) {
+  .courseContainer {
+    grid-template-columns: 20% auto;
+  }
+
+  .cardsContainer {
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  .sidebar {
+    position: sticky;
+    top: 10%;
+    height: max-content;
+    width: 100%;
+    margin-top: 0;
+    transform: translateX(0);
+  }
+
+  .heading {
+    margin-block: var(--spacing-800);
+  }
+}

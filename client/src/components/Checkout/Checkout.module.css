@@ -1,0 +1,31 @@
+.img {
+  width: 20rem;
+  margin-bottom: 0.5rem;
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-block: var(--spacing-800);
+  gap: var(--spacing-200);
+}
+
+.name {
+  font-size: var(--fs-600);
+  font-weight: var(--fw-bold);
+}
+
+.price {
+  font-size: var(--fs-600);
+  font-weight: var(--fw-bold);
+  color: var(--clr-accent-400);
+}
+
+.checkoutBtn {
+  font-size: var(--fs-500);
+  border-color: var(--clr-secondary-300);
+  color: var(--clr-secondary-300);
+  padding: var(--spacing-200) var(--spacing-400);
+}

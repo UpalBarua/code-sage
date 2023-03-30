@@ -1,0 +1,63 @@
+/* ==================== */
+/* COURSE CARD STYLES   */
+/* ==================== */
+.card {
+  display: flex;
+  flex-direction: column;
+  gap: var(--spacing-300);
+  background-color: var(--clr-primary-400);
+  padding: var(--spacing-400);
+  box-shadow: var(--box-shadow);
+}
+
+.cardImg {
+  margin-bottom: var(--spacing-400);
+  height: 12rem;
+  width: 100%;
+  object-fit: cover;
+  object-position: center;
+}
+
+.title {
+  font-size: var(--fs-600);
+  margin-bottom: var(--spacing-200);
+  font-weight: var(--fw-bold);
+}
+
+.instructor > span {
+  font-weight: var(--fw-bold);
+  color: var(--clr-accent-400);
+}
+
+.footer {
+  margin-top: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: var(--fs-600);
+}
+
+.icon {
+  color: var(--clr-accent-400);
+}
+
+.price {
+  font-weight: var(--fw-bold);
+}
+
+.cardBtn {
+  text-align: center;
+  border-color: var(--clr-accent-400);
+  padding-block: var(--spacing-300);
+  margin-top: var(--spacing-200);
+  font-weight: var(--fw-bold);
+  transition: background-color 300ms ease-in;
+  letter-spacing: 1px;
+  color: var(--clr-accent-400);
+}
+
+.cardBtn:hover,
+.cardBtn:focus-visible {
+  background-color: var(--clr-accent-400);
+  color: var(--clr-primary-400);
+}

@@ -1,0 +1,118 @@
+/* ==================== */
+/* NAVBAR STYLES        */
+/* ==================== */
+.navbar {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  max-height: 3.25rem;
+  padding: var(--spacing-200) 0;
+  overflow: hidden;
+  transition: max-height 500ms ease;
+  z-index: 1000;
+}
+
+.header {
+  position: sticky;
+  top: 0;
+  background-color: var(--clr-primary-400);
+  z-index: 10;
+  box-shadow: var(--box-shadow);
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  gap: var(--spacing-100);
+  font-size: var(--fs-600);
+  font-family: var(--ff-secondary);
+  color: var(--clr-accent-300);
+}
+
+.logo:focus {
+  outline: 0;
+}
+
+.menu {
+  order: 1;
+  display: none;
+  flex-direction: column;
+  gap: var(--spacing-600);
+  width: 100%;
+  padding: var(--spacing-600) 0;
+  text-align: center;
+  font-weight: var(--fw-bold);
+}
+
+.menuItem:hover,
+.menuItem:focus-visible {
+  transition: 250ms ease-in;
+  color: var(--clr-accent-400);
+}
+
+.navbar[data-visible='true'] {
+  max-height: 60vh;
+}
+
+.navbar[data-visible='true'] .menu {
+  display: flex;
+}
+
+.btnGroup {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: var(--spacing-200);
+}
+
+.navBtn {
+  color: var(--clr-secondary-300);
+  cursor: pointer;
+  display: flex;
+}
+
+.navBtn:nth-child(2) {
+  padding: var(--spacing-100);
+  color: var(--clr-accent-400);
+  font-weight: var(--fw-bold);
+}
+
+.navBtn:hover,
+.navBtn:focus-visible {
+  outline: 0;
+  color: var(--clr-secondary-400);
+}
+
+.userImg {
+  width: 2rem;
+  height: 2rem;
+  border-radius: 50%;
+  border: 2px solid var(--clr-accent-400);
+}
+
+.icon {
+  font-size: var(--fs-700);
+}
+
+@media screen and (min-width: 48em) {
+  .navbar {
+    padding: var(--spacing-400) 0;
+    max-height: max-content;
+    transition: none;
+  }
+
+  .menu {
+    display: flex;
+    flex-direction: row;
+    gap: var(--spacing-500);
+    order: initial;
+    width: initial;
+    padding: 0;
+    font-weight: var(--fw-normal);
+  }
+
+  .navBtn:last-child {
+    display: none;
+  }
+}

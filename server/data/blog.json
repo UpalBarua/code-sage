@@ -1,0 +1,22 @@
+[
+  {
+    "id": 1,
+    "question": "what is cors?",
+    "answer": "CORS stands for Cross-Origin Resource Sharing. It is a browser security feature that restricts cross-origin HTTP requests. When the client and server have a different origin from each other, trying to make a request to a resource on the other server will fail. This is a security concern for the browser. CORS disables this mechanism and allow access to these resources. It will add a response header access-control-allow-origins and specify which origins are permitted. CORS ensures that we are sending the right headers."
+  },
+  {
+    "id": 2,
+    "question": "Why are we using firebase? What other options do we have to implement authentication?",
+    "answer": "Firebase is a backend as a service platform backed by Google that provides a set of tools to help developers build, release and monitor web, Android, and IOS apps.The tools it gives cover a large portion of the services that developers would normally have to build themselves, This includes things like analytics, authentication, databases, configuration, file storage, push messaging, etc. The services are hosted in the cloud. Firebase is used by developers because it provides a Reliable & Extensive Databases, Fast & Safe Hosting, Google Analytics, Free Multi-Platform Authentication and much more. There are also many great alternative to firebase that provide similar services. Some of them are Parse, Supabase, Kuzzle, Back4App. We can also implement our own authentication. There are various ways through which we can achieve authentication manually Cookie-Based authentication, Token-Based authentication, Third party access(OAuth, API-token) etc. "
+  },
+  {
+    "id": 3,
+    "question": "How does the private route work?",
+    "answer": "Private Routes/Protected Routes in React Router require a user being authorized to visit a route. So if a user is not authorized for a specific page, they cannot access it. The react private route component renders child components if the user is logged in. If not logged in the user is redirected to the /login page with the return url passed in the location state property. The current logged in user (authUser) is retrieved from context."
+  },
+  {
+    "id": 4,
+    "question": "What is Node? How does Node work?",
+    "answer": "Node.js is a JavaScript runtime built on Chrome’s V8 JavaScript engine it uses an event-driven, non-blocking I/O model. Node.js runs a single-threaded event loop registered with the system to handle connections, and each new connection causes a JavaScript callback function to fire. The callback function can handle requests with I/O calls, and if necessary can spawn threads from a pool to execute blocking or CPU-intensive operations and to load-balance across CPU cores. Node also has a large ecosystem. The NPM registry hosts more than 1.3 million packages of free, reusable Node.js code, which makes it the largest software registry in the world."
+  }
+]

@@ -1,0 +1,159 @@
+/* ==================== */
+/* CUSTOM PROPERTIES    */
+/* ==================== */
+:root {
+  /* TYPOGRAPHY */
+  --ff-primary: 'Roboto', sans-serif;
+  --ff-secondary: 'Oswald', sans-serif;
+
+  --fs-100: 0.5rem;
+  --fs-200: 0.75rem;
+  --fs-300: 0.875rem;
+  --fs-400: 1rem;
+  --fs-500: 1.125rem;
+  --fs-600: 1.25rem;
+  --fs-700: 1.75rem;
+  --fs-800: 2rem;
+  --fs-900: 4.5rem;
+
+  --fw-light: 300;
+  --fw-regular: 400;
+  --fw-bold: 700;
+
+  /* COLORS */
+  /* --clr-primary-300: #454342;
+  --clr-primary-400: #2d2c2b;
+  --clr-primary-500: #161413; */
+
+  /* --clr-secondary-300: #fdfdff;
+  --clr-secondary-400: #e4e4e6;
+  --clr-secondary-500: #cacacc; */
+
+  --clr-primary-500: #fafafa;
+  --clr-primary-400: #eeeeee;
+  --clr-primary-300: #e0e0e0;
+
+  --clr-secondary-300: #212121;
+  --clr-secondary-400: #424242;
+  --clr-secondary-500: #616161;
+
+  /* --clr-accent-200: #33d0ae;
+  --clr-accent-300: #1acaa4;
+  --clr-accent-400: #00c49a;
+  --clr-accent-500: #00b08b;
+  --clr-accent-600: #009d7b; */
+
+  --clr-accent-400: #00bcd4;
+  --clr-accent-500: #00acc1;
+  --clr-accent-500: #00838f;
+
+  --clr-warning-50: rgba(223, 41, 53, 0.15);
+  --clr-warning-300: #e5545d;
+  --clr-warning-400: #df2935;
+  --clr-warning-500: #c92530;
+
+  --clr-success-300: #71bb79;
+  --clr-success-400: #4daa57;
+  --clr-success-500: #45994e;
+
+  --bg-transparent: rgba(22, 20, 19, 0.85);
+
+  /* SPACING */
+  --spacing-100: 0.25rem;
+  --spacing-200: 0.5rem;
+  --spacing-300: 0.75rem;
+  --spacing-400: 1.125rem;
+  --spacing-500: 1.5rem;
+  --spacing-600: 1.875rem;
+  --spacing-700: 2.25rem;
+  --spacing-800: 2.875rem;
+  --spacing-900: 3rem;
+
+  /* MISCELLANEOUS */
+  --box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
+}
+
+@media screen and (min-width: 48em) {
+  :root {
+    --fs-600: 1.5rem;
+  }
+}
+
+[data-dark-mode='true'] {
+  /* --clr-primary-500: #e4e4e6;
+  --clr-primary-400: #cacacc;
+  --clr-primary-300: #fdfdff;
+
+  --clr-secondary-300: #2d2c2b;
+  --clr-secondary-400: #2d2c2b;
+  --clr-secondary-500: #2d2c2b; */
+
+  --clr-secondary-300: #fafafa;
+  --clr-secondary-400: #eeeeee;
+  --clr-secondary-500: #e0e0e0;
+
+  --clr-primary-500: #212121;
+  --clr-primary-400: #424242;
+  --clr-primary-300: #616161;
+}
+
+/* ==================== */
+/* GENERAL RESETS       */
+/* ==================== */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  font: inherit;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  position: relative;
+  min-height: 100vh;
+  font-size: var(--fs-400);
+  font-family: var(--ff-primary);
+  line-height: 1.6;
+  color: var(--clr-secondary-300);
+  background-color: var(--clr-primary-500);
+  font-weight: var(--fw-regular);
+  overflow-x: hidden;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  line-height: 1.1;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+ul,
+ol {
+  list-style: none;
+}
+
+.active {
+  color: var(--clr-accent-400);
+  position: relative;
+}
+
+.active::after {
+  content: '';
+  position: absolute;
+  right: 0;
+  height: 2px;
+  width: 100%;
+  background-color: var(--clr-accent-400);
+  margin-top: var(--spacing-600);
+}

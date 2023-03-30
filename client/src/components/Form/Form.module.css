@@ -1,0 +1,32 @@
+/* ==================== */
+/* FORM STYLES          */
+/* ==================== */
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: var(--spacing-200);
+  margin: var(--spacing-400);
+}
+
+.input {
+  background-color: var(--clr-primary-300);
+  color: var(--clr-light-500);
+  border: 2px solid var(--clr-secondary-500);
+  padding: var(--spacing-200);
+}
+
+.input:hover,
+.input:focus-visible {
+  outline: 0;
+  border-color: var(--clr-accent-400);
+}
+
+.input[data-has-error='true'] {
+  border-color: var(--clr-warning-400);
+  background-color: var(--clr-warning-50);
+}
+
+.warning {
+  font-size: var(--fs-200);
+  color: var(--clr-warning-400);
+}

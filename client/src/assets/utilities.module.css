@@ -1,0 +1,19 @@
+/* ==================== */
+/* UTILITIES            */
+/* ==================== */
+.container {
+  max-width: min(70rem, 100% - 30px);
+  margin: 0 auto;
+}
+
+.btn {
+  background-color: transparent;
+  border: 0;
+  border: 2px solid transparent;
+  padding: var(--spacing-s200);
+}
+
+.btn:hover,
+.btn:focus-visible {
+  outline: 0;
+}

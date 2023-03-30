@@ -1,0 +1,67 @@
+.overlay {
+  background-color: var(--bg-transparent);
+  position: fixed;
+  inset: 0;
+  z-index: 20;
+  display: grid;
+  place-content: center;
+}
+
+.spinner {
+  height: 8rem;
+  width: 8rem;
+  position: relative;
+  perspective: 600px;
+}
+
+.spinner > div {
+  position: absolute;
+  top: 0;
+  background-color: var(--clr-accent-400);
+  height: 4rem;
+  width: 4rem;
+  animation: flip 2s linear infinite;
+  transform-origin: right bottom;
+  box-shadow: var(--box-shadow);
+}
+
+.spinner > div:nth-child(2) {
+  animation-delay: 1s;
+  opacity: 0.5;
+  background-color: var(--clr-accent-400);
+  box-shadow: var(--box-shadow);
+}
+
+@keyframes flip {
+  0% {
+    transform: rotateX(0) rotateY(0);
+  }
+
+  25% {
+    transform: rotateX(0) rotateY(180deg);
+  }
+
+  50% {
+    transform: rotateX(180deg) rotateY(180deg);
+  }
+
+  75% {
+    transform: rotateX(180deg) rotateY(0);
+  }
+
+  100% {
+    transform: rotateX(0) rotateY(0);
+  }
+}
+
+@media screen and (min-width: 48em) {
+  .spinner {
+    height: 10rem;
+    width: 10rem;
+  }
+
+  .spinner > div {
+    height: 5rem;
+    width: 5rem;
+  }
+}

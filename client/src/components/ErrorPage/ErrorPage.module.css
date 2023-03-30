@@ -1,0 +1,44 @@
+/* ==================== */
+/* ERROR PAGE STYLES    */
+/* ==================== */
+.errorContainer {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  grid-template-rows: repeat(6, 1fr);
+  max-width: 25rem;
+}
+
+.col:first-child {
+  grid-column: 1/6;
+  grid-row: 1/6;
+  background-color: var(--clr-primary-400);
+}
+
+.col:last-child {
+  grid-column: 2/7;
+  grid-row: 2/7;
+  background-color: var(--clr-primary-300);
+  padding: var(--spacing-600);
+}
+
+.status {
+  font-size: var(--fs-900);
+  font-weight: var(--fw-bold);
+  color: var(--clr-warning-400);
+  padding: 0 var(--spacing-400);
+  position: relative;
+  font-family: var(--ff-secondary);
+}
+
+.title {
+  font-size: var(--fs-700);
+  padding-top: var(--spacing-500);
+  margin-bottom: var(--spacing-300);
+}

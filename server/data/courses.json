@@ -1,0 +1,74 @@
+[
+  {
+    "id": "6358a9bb1a7c5bsf7997f7da",
+    "isFeatured": false,
+    "isBestSeller": true,
+    "price": "$23",
+    "img": "https://www.pngitem.com/pimgs/m/519-5194865_html-css-js-html-5-hd-png-download.png",
+    "instructor": "Wiley Mcdonald",
+    "name": "Web Development Fundamentals",
+    "description": "A hands-on introduction to all of the essential tools you'll need to build real, working websites. You'll learn what web developers actually do and the foundations you'll need for later courses. In this unit, we’ll learn about how the web works and start thinking about the basics of computer and web programming. Each of the following sections and lessons represents essential baseline knowledge. Even if you have no intention of becoming a web developer yourself, this material should help you gain a useful understanding of the moving parts involved in creating and serving content on the web. We will start by getting familiar with the internet and your own computer. Next, we’ll work on setting up a development environment and learning about Git and GitHub. Then, we’ll go over the basics of front-end technologies like HTML, CSS, and Javascript before stepping into the back end with a brief foray that covers the basic concepts of back-end technologies. By the end of this unit, you should not only understand how the web works but also be able to identify and differentiate between all the technologies that you will use to build your own web applications. You will be able to build a simple webpage, style it, and add minor elements of interactivity while working comfortably from the command line.",
+    "ratings": 4.8,
+    "lastUpdated": 1
+  },
+  {
+    "id": "6358a9bbc14f3b82c5g59ee5",
+    "isFeatured": true,
+    "isBestSeller": false,
+    "price": "$38",
+    "img": "https://process.fs.teachablecdn.com/ADNupMnWyR7kCWRvm76Laz/resize=width:705/https://www.filepicker.io/api/file/I96OEZhsS5ySq11rnvJh",
+    "instructor": "Charles Oneil",
+    "name": "Advanced CSS & Semantic HTML",
+    "description": "This is the first of the two part course where we dig deeper into HTML and CSS. Our foundations lessons, by design, only scratched the surface of what’s possible. We wanted to give you all of the bare necessities for getting started so you could move on and be somewhat productive as quickly as possible, but now it’s time to slow down and dig in! You have probably realized by now that there are many more HTML elements than we mentioned in our foundations content. Throughout this course we’ll be hitting the rest of the important elements such as forms and tables. There is also a lot more that you can do with CSS that you’ll learn throughout this course, such as variables, functions, shadows and of course grid layouts! So buckle up! By the time you finish this course you’ll be able to recreate just about any web design you can find on the internet… which is an important skill to carry forward. Even if you are not shooting for a front-end specific job, being able to make your portfolio pieces look nice is important when it comes to making yourself stand out. You’ll learn about animations, accessibility and responsive design in the second part of this course later in the curriculum.",
+    "ratings": 4.5,
+    "lastUpdated": 3
+  },
+  {
+    "id": "6358a9bb56419bfc3aaed35e",
+    "isFeatured": false,
+    "isBestSeller": true,
+    "price": "$49",
+    "img": "https://miro.medium.com/max/720/1*LyZcwuLWv2FArOumCxobpA.png",
+    "instructor": "Vaughn Dominguez",
+    "name": "Intermediate JavaScript",
+    "description": "JavaScript is the future of the web. More and more of the logic is making its way to the client side in order to facilitate lightning-fast user experiences. JavaScript is even moving to the server side with Node.js. That’s why in this course we’ll be diving deep into it to make sure you come out with a good understanding of how it works. You’ve already completed the Foundations course, right? Good, because now we’ll be moving at warp speed into new frontiers. This section will cover a lot of ground and your brain may melt down a few times, but don’t worry, that’s just a flesh wound. Patch ‘er up and keep going! When in doubt, build something. How is this course set up? It starts with a deeper look at the basics, just like the Ruby Programming course did with Ruby. You don’t need to have completed the Ruby Programming course or the Ruby on Rails course to understand these basics. We won’t be focusing deeply on the really basic coding items, so it will move quickly. You should, however, already have completed the Foundations course – specifically, the JavaScript Basics section – before starting this course. last thing you’ll do is a final project which integrates everything you’ve learned in all the courses of this curriculum. This is the kind of project that you’ll be telling employers all about and a great chance to prove that you’re now, officially, a serious web developer.",
+    "ratings": 4.7,
+    "lastUpdated": 2
+  },
+  {
+    "id": "6358a9bb63ea78ee3635f11d3",
+    "isFeatured": false,
+    "isBestSeller": true,
+    "price": "$40",
+    "img": "https://www.cloudsigma.com/wp-content/uploads/MongoDB-Replica-Set-Auto-%D0%A1lustering-for-High-Availability-and-Performance-.jpg",
+    "instructor": "Lenora Mathews",
+    "name": "MongoDB Basic to Advanced",
+    "description": "Data persistence is integral to the vast majority of web applications. Local storage has limitations and poses security risks, and SaaS options such as Firebase work well, but ultimately being able to understand how to structure, build, and query your own database are important skills for any full stack developer to have. For example, consider Twitter. Where are your username and password stored? Or perhaps where all of your Tweets might be fetched from? How does the application determine what Tweets are shown to you every time you log on? These operations are handled by a database. Databases are split into “relational” and “non-relational” types of databases, and each handles data and scaling in different manners. This article goes in depth with the difference between the two. This lesson will teach you about MongoDB, a popular NoSQL database.",
+    "ratings": 4.5,
+    "lastUpdated": 2
+  },
+  {
+    "id": "6358a9bbe779fdac86b14f49",
+    "isFeatured": true,
+    "isBestSeller": false,
+    "price": "$28",
+    "img": "https://www.devteam.space/wp-content/uploads/2022/05/What-is-Python.jpg",
+    "instructor": "ZILLAN",
+    "name": "Python Scripting and Automation",
+    "description": "Python is commonly used for developing websites and software, task automation, data analysis, and data visualization. Since it’s relatively easy to learn, Python has been adopted by many non-programmers such as accountants and scientists, for a variety of everyday tasks, like organizing finances. “Writing programs is a very creative and rewarding activity,” says University of Michigan and Coursera instructor Charles R Severance in his book Python for Everybody. “You can write programs for many reasons, ranging from making your living to solving a difficult data analysis problem to having fun to helping someone else solve a problem.”",
+    "ratings": 4.1,
+    "lastUpdated": 1
+  },
+  {
+    "id": "6358a9bb6282dbae10abc871",
+    "isFeatured": true,
+    "isBestSeller": false,
+    "price": "$40",
+    "img": "https://cdn.educba.com/academy/wp-content/uploads/2019/07/Samba-Server-in-Linux.jpg.webp",
+    "instructor": "Lester Holden",
+    "name": "Linux Servers and System Administration",
+    "description": "A Linux server is a variant of the Linux operating system that is designed to handle more intense storage and operational needs of larger organizations and their software. Linux servers are widely used today and considered amongst the most popular due to their stability, security, and flexibility, which outstrip standard Windows servers. Another major benefit of using Linux over closed-source software like Windows is that the former is fully open-source. This helps keeps setup and maintenance costs low, as even many of the proprietary variants of the standard Linux OS (such as Debian, CentOS, Ubuntu, and Red Hat) give users significant flexibility in terms of set up, operation, and maintenance their servers. Additionally, Linux Servers are generally lighter to run on both physical and cloud servers because they don’t require a graphics interface.",
+    "ratings": 4.4,
+    "lastUpdated": 2
+  }
+]

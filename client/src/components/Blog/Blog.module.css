@@ -1,0 +1,41 @@
+/* ==================== */
+/* BLOG STYLES          */
+/* ==================== */
+.blogContainer {
+  max-width: 40rem;
+  margin: var(--spacing-500) auto;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: var(--spacing-500);
+}
+
+.title {
+  font-size: var(--fs-800);
+  font-weight: var(--fw-bold);
+  font-family: var(--ff-secondary);
+  color: var(--clr-accent-400);
+  margin-block: var(--spacing-300);
+}
+
+.question {
+  display: flex;
+  background-color: var(--clr-primary-300);
+  align-items: center;
+  font-size: var(--fs-500);
+  padding: var(--spacing-400);
+  box-shadow: var(--box-shadow);
+}
+
+.answer {
+  padding: var(--spacing-400);
+  background-color: var(--clr-primary-400);
+  box-shadow: var(--box-shadow);
+}
+
+@media screen and (min-width: 48em) {
+  .blogContainer {
+    text-align: start;
+  }
+}

@@ -1,0 +1,11 @@
+.footer {
+  margin-top: var(--spacing-900);
+  text-align: center;
+  padding-block: var(--spacing-500);
+  background-color: var(--clr-primary-400);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  box-shadow: var(--box-shadow);
+}
